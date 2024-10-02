@@ -1,6 +1,7 @@
 package com.example.ppro_b.model;
 
 public class Car {
+    private int id = -1;
     private String spz;
     private String color;
     private float tankVolume;
@@ -14,6 +15,14 @@ public class Car {
     }
 
     public Car() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getSpz() {
