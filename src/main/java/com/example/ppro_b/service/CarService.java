@@ -6,9 +6,9 @@ import java.util.ArrayList;
 
 @Service
 public interface CarService {
-    public ArrayList<Car> getAllCars();
-    public Car getCarById(int id);
-    public void saveCar(Car car);
-    public void deleteCar(int id);
-    public int getCount();
+    ArrayList<Car> getAllCars();
+    Car getCarById(int id);
+    void saveCar(Car car);
+    void deleteCar(int id);
+    int getCount();
 }
